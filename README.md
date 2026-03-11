@@ -1,20 +1,40 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# Summit Growth FP&A Platform
 
-This contains everything you need to run your app locally.
+A Financial Planning & Analysis (FP&A) dashboard designed for Private Equity firms to monitor and analyze portfolio companies.
 
-View your app in AI Studio: https://ai.studio/apps/11b7128d-0c8c-4909-aa8f-f8c1ca5f1877
+## Features
 
-## Run Locally
+- Portfolio performance dashboard
+- Financial KPI tracking (Revenue, EBITDA, Margin)
+- Portfolio company comparison
+- AI Agent Activity feed
+- Interactive charts and analytics
 
-**Prerequisites:**  Node.js
+## Tech Stack
 
+Frontend:
+- React
+- TypeScript
+- Tailwind CSS
+- Recharts
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Backend:
+- Node.js
+- Express
+
+Database:
+- SQLite
+
+AI Integration:
+- Gemini API (via Google AI Studio)
+
+## How to Run
+
+1. Install dependencies
+npm install
+
+2. Add Gemini API key in `.env`
+
+3. Run the app
+npm run dev
